@@ -12,7 +12,7 @@
 
 \begin{document}
 
-\title[LFS/HFS H-mode density profile dynamics at ASDEX Upgrade]{LFS/HFS H-mode density profile dynamics at ASDEX Upgrade}
+\title[Link between divertor conditions and HFS/LFS midplane density profiles in H-mode plasmas at ASDEX Upgrade]{Link between divertor conditions and HFS/LFS midplane density profiles in H-mode plasmas at ASDEX Upgrade}
 \author{L. Guimarais$^1$, C. Silva$^1$, M. Bernert$^2$, G. D. Conway$^2$, A. Drenik$^2$, L. Gil$^1$, V. Nikolaeva$^{1}$, T. Reichbauer$^2$, F. Reimold$^3$, J. Santos$^1$, E. Seliunin$^1$, A. Silva$^1$, U. Stroth$^{2,4}$, J. Vicente$^1$, E. Wolfrum$^2$, the ASDEX Upgrade Team and the EUROfusion MST1 team$^*$}
 
 \address{$^1$ Instituto de Plasmas e Fus\~ao Nuclear, Instituto Superior T\'ecnico, Universidade de Lisboa, Portugal}
@@ -34,21 +34,24 @@ See the author list of Meyer et al, Overview of progress in European Medium Size
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
 \label{sec:abstract}
-The evolution of the midplane edge electron density profiles and its link to divertor detachment is studied on ASDEX Upgrade for H-mode, taking advantage of the high resolution High-Field-Side (HFS) / Low-Field-Side (LFS) O-mode reflectometry measurements. H-mode discharges are studied where fuelling, heating power and impurity seeding are scanned in order to disentangle their role on the evolution of LFS/HFS midplane density profiles. At the inner divertor, with the onset of detachment, a region of high density is formed (High Field Side High Density front, HFSHD) and it is seen to expand into the HFS midplane. The evolution of HFS midplane density profiles strongly responds to the state of the inner divertor and to the presence of the HFSHD. At the LFS, the density profile at the SOL is also greatly correlated with divertor conditions, providing further evidence to previous observations. The interplay between midplanes and divertors is analysed, both for the inter-ELM period and during the ELM cycle itself. 
+
+The connection between midplane and divertor conditions is studied on ASDEX Upgrade for H-mode. H-mode discharges are analysed where fuelling, heating power and impurity seeding are scanned, enabling to disentangle their role on the evolution of LFS/HFS midplane density profiles. The high resolution High-Field-Side (HFS) / Low-Field-Side (LFS) O-mode reflectometer provides a unique insight into plasma conditions at both the in- and outboard side. At the inner divertor, with the onset of detachment, a region of high density is formed (High Field Side High Density front, HFSHD) and it is seen to expand into the HFS midplane. The evolution of HFS midplane density profiles strongly responds to the state of the inner divertor and to the presence of the HFSHD. At the LFS, the density profile at the SOL is also greatly correlated with divertor conditions, providing further evidence to previous observations. Fast transient events (Edge Localised Modes, ELMs) are a feature of the H-mode, which complicate the analysis. The interplay between midplanes and divertors is separately analysed for the inter-ELM period and then for the ELM cycle itself. 
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \label{sec:intro}
 
-H-mode occurs above a threshold heating power and leads to the formation of an edge transport barrier that is associated with the increase of electron density and temperature in the pedestal region\cite{wagner1982regime}. A feature of H-modes are Edge Localized Modes (ELMs)\cite{zohm1996edge} that cause quasi-periodic relaxations of the pedestal gradients in the electron density and the electron and ion temperature, expelling energy and particles into the SOL and consequently leading to transient heat and particle loads onto the divertor targets. The higher heating power necessary to sustain H-modes also requires a higher density for detachment\cite{LaBombard1987,krasheninnikov1998physical} to arise. In ASDEX Upgrade (AUG), with a tungsten (W) wall, only a partially detached outer target has been achieved in non-seeded H-mode. When gas fuelling is applied at sufficient heating power, a poloidally localised region of high density at the HFS SOL appears, at the height of the X-point, the so called High Field Side High Density front (HFSHD). The HFSHD is found in L- and H-mode plasmas and has so far been observed on AUG\cite{mccormick2009main,Potzel2015} and JET\cite{potzel2015formation} revealing that the presence of a HFSHD is independent of confinement mode and machine size. Typically, the HFSHD has a density one order of magnitude larger than that at the separatrix. The HFSHD is associated with the detachment of the inner divertor while the outer divertor may be attached or detached and found to be correlated with neutral fluxes in the far SOL as both increase with heating power\cite{Reimold2015}. The magnitude of the HFSHD is reduced or even suppressed with impurity seeding due to the radiation of the exhausted power before it reaches the HFS SOL preventing the ionisation of particles associated with the HFSHD\cite{potzel2015formation}. However, even at high N seeding fractions, it is not possible at AUG to completely mitigate the HFSHD. It was also suggested that nitrogen seeding in machines with metallic plasma facing components acts like the intrinsic radiator in carbon machines\cite{potzel2015formation}, thus explaining the rare observations of the HFSHD in non-metallic wall devices\cite{mccormick2009main}. 
+H-mode occurs above a threshold heating power and leads to the formation of an edge transport barrier that is associated with the increase of electron density and temperature in the pedestal region\cite{wagner1982regime}. The higher heating power necessary to sustain H-modes also requires a higher density for detachment\cite{LaBombard1987,krasheninnikov1998physical} to arise. In ASDEX Upgrade (AUG), with a tungsten (W) wall, only a partially detached outer target has been achieved in non-seeded H-mode. When gas fuelling is applied at sufficient heating power, a poloidally localised region of high density at the HFS SOL appears, at the height of the X-point, the so called High Field Side High Density front (HFSHD). The HFSHD is found in L- and H-mode plasmas and has so far been observed on AUG\cite{mccormick2009main,Potzel2015} and JET\cite{potzel2015formation} revealing that the presence of a HFSHD is independent of confinement mode and machine size. Typically, the HFSHD has a density one order of magnitude larger than that at the separatrix. The HFSHD is associated with the detachment of the inner divertor while the outer divertor may be attached or detached and found to be correlated with neutral fluxes in the far SOL as both increase with heating power\cite{Reimold2015}. The magnitude of the HFSHD is reduced or even suppressed with impurity seeding due to the radiation of the exhausted power before it reaches the HFS SOL preventing the ionisation of particles associated with the HFSHD\cite{potzel2015formation}. However, even at high N seeding fractions, it is not possible at AUG to completely mitigate the HFSHD. It was also suggested that nitrogen seeding in machines with metallic plasma facing components acts like the intrinsic radiator in carbon machines\cite{potzel2015formation}, thus explaining the rare observations of the HFSHD in non-metallic wall devices\cite{mccormick2009main}. 
 
 The H-mode is foreseen as the standard operational scenario of future fusion devices such as ITER. Unfortunately, there are conflicting interests when it comes to achieve high-performance plasma conditions and how to handle their particle and power exhaust. Performance benefits from having large density gradients at the edge, close to the separatrix\cite{schneider2014pedestal}. On the other hand, plasma exhaust benefits from high edge densities\cite{kallenbach2018parameter}. The density at the separatrix is, therefore, an important interface parameter between the plasma core (performance) and the plasma edge (exhaust). In this work, we will explore how the LFS/HFS reflectometer can contribute to the interplay between performance and exhaust.
 
 The confinement quality of a discharge is described by the factor $H_{98}$ that compares the achieved confinement to the prediction of the $H_{98,y2}$\cite{ITER1999} scaling (standard H-mode confinement corresponds to $H_{98} = 1$). The $H_{98}$ factor ranges from 0.8 to 1.2 in our experiments. Divertor detachment appears as an attractive scenario to handle power and particle loads, as their mitigation is fundamental for the integrity of Plasma Facing Components (PFCs).
 %A power threshold of $10\,MW/m^{2}$ is defined as the engineering limit for PFCs for future devices.
 
-This paper is organised as follows: section \ref{section:descriptionhmode} presents a description of the H-mode experiments, as well as introducing the diagnostics used in this work. Examples of HFS/LFS symmetric profiles via a diagnostic comparison are given in section \ref{section:hfslfscomphmode}. In section \ref{section:overviewdivdetevol}, an overview of detachment evolution in H-mode and of the analysis tools used in this work is given for the inter-ELM period. In section \ref{sec:fuel_power}, the emphasis is placed on the formation of the HFSHD and its dependence on the fuelling rate and input power for the inter-ELM period of the H-mode. ELM dynamics, the influence of the divertor HFSHD on the midplane density evolution and the LFS/HFS profile asymmetry along the ELM cycle with and without seeding is analysed on section \ref{section:hfslfselmcycle}. Finally, a discussion about the results of this work can be seen in section \ref{section:hmodediscussion}.
+This paper is organised as follows: section \ref{section:descriptionhmode} presents a description of the H-mode experiments, as well as introducing the diagnostics used in this work.
+%Examples of HFS/LFS symmetric profiles via a diagnostic comparison are given in section \ref{section:hfslfscomphmode}.
+In section \ref{section:overviewdivdetevol}, an overview of detachment evolution in H-mode and of the analysis tools used in this work is given for the inter-ELM period. In section \ref{sec:fuel_power}, the emphasis is placed on the formation of the HFSHD and its dependence on the fuelling rate and input power for the inter-ELM period of the H-mode. ELM dynamics, the influence of the divertor HFSHD on the midplane density evolution and the LFS/HFS profile asymmetry along the ELM cycle with and without seeding is analysed on section \ref{section:hfslfselmcycle}. Finally, a discussion about the results of this work can be seen in section \ref{section:hmodediscussion}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Description of the experiment}
@@ -56,93 +59,23 @@ This paper is organised as follows: section \ref{section:descriptionhmode} prese
 
 Several discharges where input power and fuelling are scanned as well as the application of nitrogen seeding are performed on ASDEX Upgrade. The experiments include variations mainly in the deuterium fuelling rates (up to $7\times 10^{22}e/s$) in order to vary the neutral density in the divertor, and in the external heating power ($P_{in} = 2.5-18\,MW$). For radiation cooling, $\mathrm{N_{2}}$ is applied at a rate of $\mathrm{N_{2}} = 2\times 10^{22}e/s$ for comparison to an unseeded portion for the same discharge. The discharges reported here were performed in forward field configurations, such that the ion $\nabla B\times B$ drift points towards the lower divertor. A schematic of the diagnostics used in this work can be seen in figure \ref{fig:diag_distribution}.
 
+
 \begin{figure}[!hbt]
-\centering
-	\begin{subfigure}{3in}
-	%\label{fig:rhocomp_30659}
-    \includegraphics{dens_diags.png}
-	\caption*{}
-	\end{subfigure}
-	~
-	\begin{subfigure}{3in}
-    \includegraphics{probes_spectrometers.png}
-	\caption*{}
-	\end{subfigure}
-	\caption{Poloidal location of diagnostics. Left: lines of sight of the LFS and HFS reflectometry, core and edge Thomson scattering, lithium beam, edge and core interferometer together with the location of the divertor Langmuir probes. Right: Lines of sight of divertor visible spectroscopy in green (special LOS grazing the inner divertor wall, $n_{e,iw}$ highlighted) and AXUV bolometer cameras (special LOS highlighted); Locations of the ionization pressure gauges and the direction they are facing are represented by the black symbols labeled F\#\#; the LFS and HFS baratrons are represented by B-HFS (dark red) and B-LFS (dark blue), respectively.}
+    \centering
+    \includegraphics[]{Figure1.png}
+    \caption[Main diagnostics used.]{Poloidal location of diagnostics. Lines of sight of the LFS and HFS reflectometry (blue and red at the midplane, respectively); edge and core interferometers (dashed blue and black); divertor Langmuir probes (LPs); Lines of sight of divertor visible spectroscopy in green (special LOS grazing the inner divertor wall, $n_{e,iw}$ highlighted); the LFS and HFS baratrons, represented by B-HFS (dark red) and B-LFS (dark blue), respectively.}
     \label{fig:diag_distribution}
 \end{figure}
 
-The main diagnostic explored in this work is the LFS/HFS reflectometer\cite{Silva1996}, installed close to the magnetic midplane of AUG. It is an O-mode reflectometer, meaning its measurements are independent of magnetic field. A comparison between the reflectometer other density profile diagnostics follow in section \ref{section:hfslfscomphmode}. Flush mounted Langmuir probes (LPs)\cite{weinlich1996flush} are used to measure ion fluxes at the divertor targets (as well as density and temperature). Two baratrons are used to measure neutral pressure at both the inner and outer divertor. (other diagnostics needed mention?)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Diagnostic comparison in HFS/LFS symmetric conditions}
-\label{section:hfslfscomphmode}
-
-It was previously shown for L-mode that, with completely attached divertors, density profiles measured by reflectometry are LFS/HFS symmetric\cite{guimarais2017poloidal}. For the case of H-mode discharges in the inter-ELM period, the reflectometer also measures poloidally symmetric density profiles in attached conditions.
-%that depend on parameters such as heating power, fuelling and seeding rate.
-An example of poloidal symmetry in the density profiles can be seen in figure \ref{fig:diag_comp}, as well as a comparison with other diagnostics. Similar density profiles are observed at LFS and HFS both in the SOL and inside the separatrix. Additionally, density measurements by reflectometry at the LFS show a good agreement with profiles obtained by the lithium beam\cite{Willensdorfer2014characterization} and the Thomson scattering\cite{kurzan2011edge} diagnostics. 
-
-\begin{figure}[!hbt]
-\centering
-	\begin{subfigure}{3in}
-	%\label{fig:rhocomp_30659}
-    \includegraphics[scale=0.5]{augped_32338.png}
-	\caption*{}
-	\end{subfigure}
-	~
-	\begin{subfigure}{3in}
-	%\label{fig:rhocomp_30659_hfshd}
-    %\includegraphics{rhocomp_30659_5900.png}
-    \includegraphics[scale=0.5]{diaggcomp_augped_hmode30554.png}
-	\caption*{}
-	\end{subfigure}
-	\caption{Diagnostic comparison for H-mode discharges at ASDEX Upgrade, for the inter-ELM period. Left: low density H-mode. Right: high-density H-mode. Please note the different scales.}
-	%\caption{Radial density profile from reflectometry (HFS and LFS), lithium beam (LIN) and Thomson scattering (TSc) diagnostics for a low density discharge (\#30659, $n_{e,c}=4.0\times10^{19}m^{-3}$) with $P_{in}=6\,MW$ (a) and $P_{in}=11\,MW$ (b).}
-	\label{fig:diag_comp}
-\end{figure}
-
-%Discharges with LFS/HFS symmetric density profiles such as the one presented in figure \ref{fig:rhocomp_30659} are rather rare in what concerns typical AUG scenarios.
-Poloidally symmetric profiles are typically only observed at a low line-averaged density and modest input power. As soon as the detachment process of the inner divertor starts, the density profiles becomes asymmetric, as a result of the High Field Side High Density (HFSHD)\cite{mccormick2009main,Potzel2014} front expanding from the divertor region into the midplane of the machine\cite{Guimarais2015}.
-
-Unfortunately, for the discharges in this work, the LFS reflectometry channel covering the range of $3.1\times10^{19}m^{-3}$ to $6.4\times10^{19}m^{-3}$ suffered from electronic noise of unknown origin and are not shown here (blue hollow triangles in figure \ref{fig:diag_comp}). However, when the density of the pedestal is much higher than $3.1\times10^{19}m^{-3}$, the plasma reflection from the V-band is strong and the density profile data can be recovered in post-processing. This task is quite laborious and has been only done for few discharges. To avoid future issues in this regard, a new system with a single-source oscillator and with a frequency translator configuration has been installed in 2018 that assures frequency coherence in fast sweep operation. In this work, individual density profiles are measured routinely every $ms$ in bursts of 4 frequency sweeps. The frequency sweeping time for all bands is $\mathrm{25\,\mu s}$ with a dead time of $\mathrm{10\,\mu s}$ between sweeps, which is needed to stabilise the oscillators.
-
-%As illustrated in figure \ref{fig:rho_comp_30659_both}, when the input power is increased from $P_{in}=6\,MW$ to $P_{in}=11\,MW$, a large increase in the SOL density is observed at the HFS leading to strong poloidal asymmetries (see \ref{fig:rhocomp_30659_hfshd}). As described in the previous chapter, this density asymmetry is due to the formation of an HFSHD at the divertor and to its expansion up to the midplane. 
-%To analyze the evolution of density profiles during the ELM cycle, we resort to track a set of density layers extracted from individual profiles. Figure \ref{fig:layers_30659} displays the iso-density lines at the LFS and HFS along several type-I ELMs together with the divertor shunt current signal that is used to identify the ELMs (ELM monitor). Data correspond to the discharge with low line-averaged density and moderate heating power presented in figure \ref{fig:rhocomp_30659} where inter-ELM density profiles are roughly LFS/HFS symmetric. During the ELM, the LFS data shows an outwards excursion of the low density layers and an inwards movement of the higher density layers, indicating a crash in the density profile gradient as typically observed during ELMs. %\begin{figure}[!htb]
-%\centering
-%\includegraphics[]{layers_30659.png}
-%\caption[Temporal evolution of reflectometry iso-density layers for discharge \#30659.]{Temporal evolution of the trajectory for several density layers at the LFS (a) and HFS (b), together with the divertor shunt current signal (c) showing the ELM evolution in real-space coordinates for discharge \#30659.  The shaded area indicates the confined region ($\rho_{pol} < 1$).}
-%\label{fig:layers_30659}
-%\end{figure}
-
-%\begin{figure}[!hbt]
-%\centering
-%\includegraphics[]{rho_single_elm_30659.png}
-%\caption[Temporal evolution of reflectometry iso-density layers for discharge \#30659 in normalized flux %coordinates.]{Temporal evolution of the trajectory for several density layers showing the ELM evolution also for discharge \#30659 in normalized flux coordinates. The shaded area indicates the confined region ($\rho_{pol} < 1$).}
-%\label{fig:rho_layers_30659_rho}
-%\end{figure}
-
-%On the HFS, the excursions of the density layers are larger, with the $n_{e}\approx 0.5\times10^{19}m^{-3}$ density layer reaching the inner vessel wall ($R=1.045\,m$) for large ELMs. When the same density layers are mapped in normalized flux coordinates, figure \ref{fig:rho_layers_30659_rho}, it is possible to see that taking into account the flux expansion the movements of the density layers along the ELM are almost LFS/HFS symmetric, although HFS profiles are often limited by the inner wall. We can conclude therefore that at least in certain discharge conditions (low line-averaged density, low input power) the density profiles are LFS/HFS symmetric both in the inter-ELM periods and during ELMs. However, even in this case, there are already asymmetries occurring during the ELM period with a slightly slower recovery of the density layers to their inter-ELM positions observed at the HFS, that is more evident at the outermost density layers.
-
-%ELM-resolved current density measurements at AUG demonstrated that the ELM leads to a reduction in the plasma radius\cite{dunne2012measurement}. This corresponds to a movement of the inner and outer separatrix location of approximately 5 mm in each case that is hardly seen in figure \ref{fig:layers_30659} as the movement of the density layers is significantly larger ($>5\,$cm). Nevertheless, the movement of the separatrix during the ELM has been taken into account in the ELM resolved measurement presented in this chapter. 
+The main diagnostic explored in this work is the LFS/HFS reflectometer\cite{Silva1996}, installed close to the magnetic midplane of AUG. It is an O-mode reflectometer, meaning its measurements are independent of magnetic field. %A comparison between the reflectometer other density profile diagnostics follow in section \ref{section:hfslfscomphmode}.
+Flush mounted Langmuir probes (LPs)\cite{weinlich1996flush} are used to measure ion fluxes at the divertor targets (as well as density and temperature). Two baratrons are used to measure neutral pressure at both the inner and outer divertor. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Overview of the divertor detachment evolution}
 \label{section:overviewdivdetevol}
 
-In the next generation of fusion devices, a reduction of the expected power loads on the plasma facing components is mandatory. Detached operation is a requirement, with high densities and low temperatures at the divertor targets achieved at high fuelling rates. The effect of plasma fuelling, additional heating, and seeding have been explored thoroughly on AUG (e.g \cite{kallenbach2018parameter,Potzel2015a,Bernert2013a}) with the goal of optimising the design of future reactors.
-
-Figure \ref{fig:evo_30554} presents the temporal evolution for an H-mode discharge where first the input power and the fuelling are increased and, later on, nitrogen seeding is injected. Also shown in figure \ref{fig:evo_30554} is the evolution of the density profiles in the divertor volume measured by Stark broadening in the inner target by the horizontal and vertical LOS and the particle flux, $\mathrm{\Gamma_{D^{+}}}$, profiles measured by Langmuir probes in the inner divertor.
-
-\begin{figure}[!hbt]
-\centering
-\includegraphics[]{dr_30554.png}
-\caption[Overview of discharge \#30554.]{Temporal evolution of the main divertor parameters for discharge \#30554: fuelling and seeding rates, central line-averaged density (a); NBI, ECRH heating power and $H_{98}$, (b); density profiles in the divertor volume measured by SBD in the inner target by the horizontal (c) and vertical (d) LOS (the dashed line corresponds to the channel observing the X-point);
-divertor target profiles of $\mathrm{\Gamma_{D^{+}}}$, measured by Langmuir probes in the inner divertor (e).
-Spectroscopy and Langmuir probe signals during ELMs have been removed.}
-\label{fig:evo_30554}
-\end{figure}
-
-%The evolution of the divertor conditions in a representative discharge with variations in fuelling rate, input power, and seeding is now analyzed. 
+In the next generation of fusion devices, a reduction of the expected power loads on the plasma facing components is mandatory. Detached operation is a requirement, with high densities and low temperatures at the divertor targets achieved at high fuelling rates. The effect of plasma fuelling, additional heating, and seeding have been explored thoroughly on AUG (e.g \cite{kallenbach2018parameter,Potzel2015a,Bernert2013a}) with the goal of optimising the design of future reactors. Figure \ref{fig:evo_30554} presents the temporal evolution for an H-mode discharge where first the input power and the fuelling are increased and, later on, nitrogen seeding is injected. Also shown in figure \ref{fig:evo_30554} is the evolution of the density profiles in the divertor volume measured by Stark broadening in the inner target by the horizontal and vertical LOS and the particle flux, $\mathrm{\Gamma_{D^{+}}}$, profiles measured by Langmuir probes in the inner divertor.
 
 ELMs lead to large variations in the divertor parameters making the interpretation of Stark broadening and Langmuir probe data difficult and partially masking the evolution of the inter-ELM parameters. To study the density evolution during the entire discharge measurements during ELMs have been removed and therefore the figure displays essentially the inter-ELM evolution. Later it will be shown that the detachment conditions vary strongly along the ELM cycle.
 
@@ -151,10 +84,10 @@ Three distinct discharge phases may be identified according to auxiliary heating
 To follow the shot evolution at large time-scales, a set of selected densities from reflectometry profile data is chosen. From each individual profile, acquired every $1\,ms$, the temporal evolution of each density layer is tracked for inter-ELM periods only. The data can then be used for comparison with other $1D$ time-traces by analysis of the iso-density contours. To remove ELM signatures from the iso-density layers, a Kalman filter\cite{kalman1960new} is employed, which eases the interpretation of their temporal evolution. The filtering approach is similar to the one used in real time reflectometry applications\cite{Santos2012}. Figure \ref{fig:layers_nseed_30554} shows the evolution of the LFS and HFS iso-density lines (ELM removed) along the discharge with representative radial density profiles for the different phases shown in figure \ref{fig:perfs_30554}. The plasma confinement ($H_{98}$) increases during the seeded phase albeit fuelling and auxiliary heating remaining the same. The effect of nitrogen seeding on the edge density profiles and divertor conditions may be investigated comparing phases $II$ and $III$, as this is the main parameter changed between the two phases.
 
 \begin{figure}[!bt]
-\centering
-\includegraphics[]{aeval_layers_30554.png}
-\caption[Overview of discharge \#30554.]{Trajectories of selected density layers at LFS (a) and HFS (b) for discharge \#30554 with nitrogen seeding from profile reflectometry; fuelling rate, nitrogen seeding rate and $H_{98}$ (c); central line-averaged density, NBI and ECRH heating power (d); $\mathrm{\Gamma_{D^{+}}}$ and $T_e$ measured by Langmuir probes near the outer (e) and inner divertor strike-point (f); asymmetry parameter and density in the divertor volume (g). Reflectometry and Langmuir probe signals during ELMs have been removed.}
-\label{fig:layers_nseed_30554}
+    \centering
+    \includegraphics[]{Figure2.png}
+    \caption[Overview of discharge \#30554.]{Trajectories of selected density layers at LFS (a) and HFS (b) for discharge \#30554 with nitrogen seeding from profile reflectometry; fuelling rate, nitrogen seeding rate and $H_{98}$ (c); central line-averaged density, NBI and ECRH heating power (d); $\mathrm{\Gamma_{D^{+}}}$ and $T_e$ measured by Langmuir probes near the outer (e) and inner divertor strike-point (f); asymmetry parameter and density in the divertor volume (g). Reflectometry and Langmuir probe signals during ELMs have been removed.}
+    \label{fig:evo_30554}
 \end{figure}
 
 To understand the evolution of the midplane HFSHD, our attention is turned to the behaviour of the divertor parameters. Also shown in figure \ref{fig:layers_nseed_30554} are the particle flux and the electron temperature measured by the target Langmuir probes near the inner and outer strike-points to assess the evolution of divertor detachment along the discharge. As illustrated, $\Gamma_{D^{+}}$ increases at the inner divertor and even more noticeably at the outer target when the input power is stepped up suggesting a regression in the detachment state. When nitrogen seeding is injected both $\Gamma_{D^{+}}$ and $T_e$ decrease sharply particularly in the inner divertor (with $T_e$ values below $5\,eV$) indicating that full detachment is approached. The average density in the divertor volume measured by the Stark broadening diagnostic in the inner divertor is also shown in figure \ref{fig:layers_nseed_30554}.
@@ -164,10 +97,10 @@ During the phase $II$ of the discharge, the divertor HFSHD increases significant
 In spite of the roughly constant line-averaged density throughout the discharge, the behaviour of the HFSHD changes strongly. The increase of the heating power and fuelling rate leads to the development of the HFSHD that is then reduced when nitrogen is injected. Already in the first discharge phase, a clear LFS/HFS asymmetry in the density profile is observed favouring the HFS indicating the presence of a HFSHD as expected due to the moderate values of input power and fuelling. As illustrated in Figure \ref{fig:layers_nseed_30554}, an increase in the deuterium fuel rate leads to an outward shift of the LFS density profile and to a small increase in the HFS SOL density. In the second phase, both the fuelling and the input power are raised leading to a stronger HFSHD clearly identified by the quick movement of the density layers towards the inner wall. The SOL width at the LFS reaches a maximum during this period as a consequence of the high fuel rate (see figures \ref{fig:layers_nseed_30554} and \ref{fig:perfs_30554}), confirming the results shown in section \ref{sec:fuel_power}. Again most of the changes at the LFS are seen in the SOL (for densities below $2.0\times10^{19}m^{-3}$) with modest modifications in the pedestal region. At the HFS, the HFSHD causes the density profile to be pressed against the inner wall. 
 
 \begin{figure}[!bt]
-\centering
-\includegraphics[]{perfs_30554.png}
-\caption[Density profile evolution for discharge \#30554.]{Evolution of the density profiles from reflectometry at (a) the HFS and (b) the LFS in normalised flux coordinates along the discharge \#30554 for the three discharge phases. Profiles are averaged over $20\,ms$.}
-\label{fig:perfs_30554}
+    \centering
+    \includegraphics[]{Figure3.png}
+    \caption[Density profile evolution for discharge \#30554.]{Evolution of the density profiles from reflectometry at (a) the HFS and (b) the LFS in normalised flux coordinates along the discharge \#30554 for the three discharge phases. Profiles are averaged over $20\,ms$.}
+    \label{fig:perfs_30554}
 \end{figure}
 
 In phase $III$, nitrogen is injected that leads to a reduction of the HFSHD and also to a small reduction of the LFS SOL width. However, the density layers react slowly (over $\approx 0.5\,s$) to  the nitrogen injection.
@@ -183,18 +116,17 @@ Similarly to the observation in L-mode, a clear correlation is observed between 
 With the goal of disentangling the role of fuelling rate and input power on the midplane density profiles during inter-ELM periods, a discharge where these parameters are scanned independently is analysed. Three fuelling and three power steps take place independently in discharge \#30733, as shown in figure \ref{fig:layers_30733}. In order to produce a visible effect on the midplane density profiles, changes in the fuelling rate must be in the order of $\mathrm{10^{22}\,e/s}$. As the effect of the fuel rate and input power is different at the LFS and HFS, the two regions are analysed separately. At the LFS, the edge density is observed to respond clearly to the increase in the fuel rate leading to an outward shift of the profile, mainly seen in the density layers below $3.0\times10^{19}m^{-3}$ (see figures \ref{fig:layers_30733} and \ref{fig:perfs_30733}, comparing for instance profiles at $t=4.8\,s$ and $t=5.5\,s$). On the contrary, the input power has a minor impact of the density profiles as no changes are observed in the LFS SOL when the power is stepped-up (comparing for instance profiles at $t=3.8\,s$ and $t=4.8\,s$). In the confined region (shaded in grey), a modest reaction is observed to the variation in input power characterised by a small inward shift of the density layer that is then slowly recovered. Profiles shown in figure \ref{fig:perfs_30733} have been averaged over 20 ms, corresponding in general to about 10 profiles, as profiles measured during ELMs are discarded. To compensate for sporadic signal loss, a cubic spline has also been applied to the averaged profiles, to remove non-monotonicity. For low frequency type-I ELMs (about $50\,Hz$), this typically corresponds to one inter-ELM period while for high frequency ELMs (in the order of $200\,kHz$) will include several inter-ELM periods. Radial profiles in normalised flux coordinates for the time instants indicated are presented in figure \ref{fig:perfs_30733}. The line-averaged density exhibits a modest increase in spite of the large variation in the fuelling, as often is the case in ELMy H-mode discharges. As illustrated, $\Gamma_{D^{+}}$ at the outer target increases with fuelling showing that this divertor region is still attached. $T_e$ does not show significant changes throughout the discharge except a reduction at the inner target when the input power is stepped-up probably associated with an increase in the HFSHD.
 
 \begin{figure}[!hbt]
-\centering
-\includegraphics[]{newjsat2_layers_30733.png}
-\caption[Overview of discharge \#30733.]{Trajectories of selected density layers at LFS (a) and HFS (b) for discharge \#30773 from profile reflectometry; fuelling rate, central line-averaged density and $H_{98}$ (c); NBI and ECRH heating power (d); $\mathrm{\Gamma_{D^{+}}}$ and $T_e$ measured by Langmuir probes near the outer (e) and inner divertor strike-point (f).
-Reflectometry and Langmuir probe signals during ELMs have been removed.}
-\label{fig:layers_30733}
+    \centering
+    \includegraphics[]{Figure4.png}
+    \caption[Overview of discharge \#30733.]{Trajectories of selected density layers at LFS (a) and HFS (b) for discharge \#30773 from profile reflectometry; fuelling rate, central line-averaged density and $H_{98}$ (c); NBI and ECRH heating power (d); $\mathrm{\Gamma_{D^{+}}}$ and $T_e$ measured by Langmuir probes near the outer (e) and inner divertor strike-point (f). Reflectometry and Langmuir probe signals during ELMs have been removed.}
+    \label{fig:layers_30733}
 \end{figure}
 
 \begin{figure}[!bt]
-\centering
-\includegraphics[]{testeq.png}
-\caption[Density profile evolution for discharge \#30733.]{Evolution of the density profiles from reflectometry at (a) the HFS and (b) the LFS in normalised flux coordinates along the discharge \#30733 for the time instants indicated in figure \ref{fig:layers_30733}. Profiles are averaged over $20\,ms$.}
-\label{fig:perfs_30733}
+    \centering
+    \includegraphics[]{Figure5.png}
+    \caption[Density profile evolution for discharge \#30733.]{Evolution of the density profiles from reflectometry at (a) the HFS and (b) the LFS in normalised flux coordinates along the discharge \#30733 for the time instants indicated in figure \ref{fig:layers_30733}. Profiles are averaged over $20\,ms$.}
+    \label{fig:perfs_30733}
 \end{figure}
 
 The increase of the fuelling rate is often associated with a degradation of plasma confinement. However, no marked changes occur when the HFSHD is rapidly formed suggesting that confinement properties are not directly associated with modifications in the HFSHD, as observed in L-mode\cite{guimarais2017poloidal}. Also shown in figure \ref{fig:layers_30733} is the particle flux and the electron temperature measured by a divertor target Langmuir probe near the inner and outer strike-points to assess the evolution of divertor detachment along the discharge. As illustrated, both $\Gamma_{D^{+}}$ and $T_e$ decrease with fuelling at the inner divertor ($T_e$ reaching values below $5\,eV$) indicating partial detachment while at the outer target $\Gamma_{D^{+}}$ increases with fuelling showing that this divertor region is still attached. Note that the increase in the fuelling rate leads to faster ELMs. Above a certain ELM frequency measurements during ELMs are difficult to remove resulting in the apparent increase in the signal fluctuations. 
@@ -206,16 +138,15 @@ Plasma confinement is also differently influenced by the variation in input powe
 To better visualise the dependence of the LFS midplane density on fuelling and input power, the relative variation of the midplane density at different radial locations with fuelling rate is shown in figure \ref{fig:pres_fuel_30733} for two power levels ($P_{in}=9.2$ and $16.4\,MW$) for discharge \#30733. Densities at different locations were estimated for the times used in  figures \ref{fig:layers_30733} and \ref{fig:perfs_30733} considering as a reference for the density variation the profiles at $t=2.35\,s$. Data for the SOL and separatrix regions are from reflectometry while Thomson scattering data is used in the confined region ($\rho=0.90$). As shown before, the SOL and separatrix density increase with fuelling particularly at the highest fuelling rate (SOL density duplicates when the fuelling rate is varied by a factor of two), while the density in the confined region does not change significantly. An increase in the input power (comparison between star and circle symbols at a fuelling rate of $\approx 4\times10^{22}\,e/s$) does not modify the LFS density in the confined region and leads to a modest density increase ($<20\%$) in the SOL and at the separatrix. 
 
 \begin{figure}[!bt]
-\centering
-\includegraphics[]{pres_fuel_30733.png}
-\caption[Relative variation of the LFS midplane density for \#30733.]{Relative variation of the LFS midplane density at different radial locations with fuelling for $P_{in}=9.2$ and $16.4\,MW$ for discharge \#30733. 
-Data for the SOL and separatrix regions are from reflectometry while Thomson scattering data is used at $\rho=0.90$  (averaged over $50\,ms$).}
-\label{fig:pres_fuel_30733}
+    \centering
+    \includegraphics[]{Figure6.png}
+    \caption[Relative variation of the LFS midplane density for \#30733.]{Relative variation of the LFS midplane density at different radial locations with fuelling for $P_{in}=9.2$ and $16.4\,MW$ for discharge \#30733. Data for the SOL and separatrix regions are from reflectometry while Thomson scattering data is used at $\rho=0.90$  (averaged over $50\,ms$).}
+    \label{fig:pres_fuel_30733}
 \end{figure}
 
 \begin{figure}[!bt]
 \centering
-\includegraphics[]{neiw_30733.png}
+\includegraphics[]{Figure7.png}
 \caption[Baratron neutral pressure evolution for \#30733.]{Top: Evolution of the neutral pressure measured by the baratrons at the inner (blue) and outer (red) divertor together with that of the LFS separatrix density estimated from reflectometry (cyan) and estimated maximum density measured by reflectometry at the inner vessel wall (magenta). Bottom: core line-averaged density (red), deuterium fuelling rate (green), NBI heating power (black) and $H_{98}$ factor (blue) for discharge \#30733.}
 \label{fig:baratron_30733}
 \end{figure}
@@ -225,7 +156,7 @@ The link between the HFSHD, divertor conditions and midplane density profiles, c
 
 \begin{figure}[!bt]
 \centering
-\includegraphics[]{nsep_pzero.png}
+\includegraphics[]{Figure8.png}
 \caption[Dependence of the LFS separatrix density on the outer divertor pressure for discharge \#30733.]{Dependence of the LFS separatrix density measured by reflectometry on the outer divertor pressure for discharge \#30733. Separatrix location for reflectometry data given by CLISTE equilibrium\cite{mccarthy1999cliste}.}
 \label{fig:nsep_pzero}
 \end{figure}
@@ -264,26 +195,7 @@ Experiments in carbon wall devices have revealed the observation of an unstable 
 \section{HFS/LFS asymmetries along the ELM cycle}
 \label{section:hfslfselmcycle}
 
-In this section, the evolution of the midplane density profiles along the ELM cycle is investigated. As referred to before, ELMs present a significant transient flux of energy and particles to the divertor target, which may require specific divertor design in high power devices. Fast measurements of the SOL parameters are crucial to the understanding of ELM dynamics and for the evaluation of the fluxes to the plasma-facing components. For most of the dataset available, the temporal resolution of the density profiles from the reflectometry diagnostic is $1\,ms$. This resolution is marginal for studies related to the ELM evolution requiring the use of data processing techniques as conditional average to obtain a better characterisation of the ELM event. Divertor diagnostics are again essential for the understanding of the evolution at midplane but also present limitation with respect to the temporal resolution. This is particularly severe for the divertor spectroscopy that has a temporal resolution of $2.5\,ms$.
-
-\begin{figure}[!hbt]
-\centering
-	\begin{subfigure}{3in}
-    \includegraphics{ELM_cycle_30659.png}
-	\caption{Attached, \#30659.}
-	\end{subfigure}
-	~
-	\begin{subfigure}{3in}
-    \includegraphics{ELM_cycle_30554.png}
-	\caption{Detached, \#30554.}
-	\end{subfigure}
-	\caption{Typical time evolution of the pedestal temperature, outer divertor $D_\alpha$ radiation, outer divertor shunt current and MHD activity during a type-I ELM for a discharge in attached (a) and another with detached (b) divertor conditions.}
-	\label{fig:elm_cycle_comparison}
-\end{figure}
-
-Figure \ref{fig:elm_cycle_comparison} presents the temporal evolution on an expanded time scale during a type I ELM of the pedestal electron temperature (at a normalised plasma radius of $\rho \approx 0.95$) measured with the electron cyclotron emission diagnostic, the edge line-averaged density, the outer divertor $D_\alpha$  radiation, the outer divertor shunt current and the signal from a Mirnov coil near the outer midplane. The ELM appears as a large burst in the SOL current and $D_\alpha$ radiation. The ELM pedestal collapse time at AUG is typically $1\,ms$, as illustrated by the evolution of the electron temperature or by the perturbation in the magnetic signals. The rise time of the $D_\alpha$ signal in an ELM is typically  $100-200\,\mu$s, while the ELM duration depends on the parameter under consideration; the divertor parameters evolve during a period up to $10\,ms$,  while in parameters such as the divertor current last for less than $5\,ms$. As illustrated in figure \ref{fig:elm_cycle_comparison}, during ELMs there is a high level of magnetic fluctuations, indicating that the rapid enhancement of the transport is, in part, due to MHD instability. 
-
-The ELM evolution is shown for the case of attached divertor conditions (figure \ref{fig:ELM_cycle_30659}), corresponding to the typical ELM evolution with a fast rise and a slow decay of the $D_\alpha$ signal, and for the case of detached conditions (figure \ref{fig:ELM_cycle_30554}), where the divertor parameters show a complex evolution resulting from changes in the state of detachment along the ELM cycle. Often the $D_\alpha$ emission at the outer target has a second peak of similar magnitude as the observed during the ELM crash.
+In this section, the evolution of the midplane density profiles along the ELM cycle is investigated. A feature of H-modes are Edge Localized Modes (ELMs)\cite{zohm1996edge} that cause quasi-periodic relaxations of the pedestal gradients in the electron density and the electron and ion temperature, expelling energy and particles into the SOL and consequently leading to transient heat and particle loads onto the divertor targets. Fast measurements of the SOL parameters are crucial to the understanding of ELM dynamics and for the evaluation of the fluxes to the plasma-facing components.
 
 In order to establish the effect of the different plasma parameters and divertor conditions on the midplane profiles, discharge \#30554 was again selected now with a focus in the ELM evolution. In the first H-mode phase moderate NBI power and gas fuelling are applied resulting in large amplitude low frequency ($50\,Hz$) ELMs. Figure \ref{fig:attached_elm_cycle} displays the evolution of the iso-density layers at the HFS and LFS for type-$I$ ELMs during the first phase of discharge \#30554 together with the particle flux, electron temperature, divertor shunt current and $D_\alpha$ emission at the inner and outer divertor target. During this phase the fuel rate and input power are moderate and inter-ELM midplane density profiles are roughly symmetric as shown previously. However, as illustrated in figure \ref{fig:attached_elm_cycle}, clear HFS/LFS asymmetries are observed during the ELM. Density layers at the LFS present the classical evolution corresponding to the ELM crash with SOL layers moving outwards and pedestal layers moving inwards. The observed time scales correspond to the typical ELM evolution on AUG with a collapse time in the order of $1\,ms$ and a recovery in the order of $2\,ms$, in agreement with data from the edge interferometer. Interestingly, the SOL density width seems to show a minimum around $2-3\,ms$ after the ELM crash, and then broadening slightly again later on before returning to their inter-ELM baseline position.
 
